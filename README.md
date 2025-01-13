@@ -15,7 +15,7 @@ This repository contains the backend services for **Oil Change, Etc.**, includin
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/ay-el-grounds/oce_be.git
    cd oce_be
    ```
 2. Install dependencies:
@@ -38,7 +38,7 @@ oce_be/
 │   ├── functions/       # Firebase Cloud Functions
 │   ├── integrations/    # API integrations (e.g., DIMO, external APIs)
 │   ├── middlewares/     # Custom middleware for API requests
-│   ├── models/          # Data models if needed
+│   ├── models/          # Data models
 │   ├── routes/          # Backend routes
 │   ├── utils/           # Utility functions
 │   └── index.js         # Main entry point
